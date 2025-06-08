@@ -1,0 +1,67 @@
+site_name: Guia de Acessibilidade
+repo_name: 2025.1 - IHC - Grupo 6
+repo_url: https://github.com/artrsousa1/accessibility-guide
+
+nav:
+  - Início: index.md
+
+theme:
+  name: material
+  icon: 
+    repo: fontawesome/brands/github
+
+  font:
+    text: Poppins
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.prune
+    - navigation.top
+    - navigation.footer
+    - navigations.indexes
+    - content.code.copy
+    - toc.integrate
+    - search.suggest
+    - search.highlight  
+
+  nav_style: dark
+  language: pt
+  repo: fontawesome/brands/github
+
+  palette:
+    - scheme: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Alternar para modo escuro
+      primary: blue
+      accent: indigo
+
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Alternar para modo claro
+      primary: black
+      accent: light blue
+  
+  markdown_extensions:
+    - pydownx.arithmatex:
+        generic: true
+    - pydownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+      pigments_lang_class: true
+    - pymdownx.keys
+    - pymdownx.smartsymbols
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.betterem
+    - pymdownx.inlinehilite
+    - admonition
+    - footnotes
+    - pymdownx.details
+    - pymdownx.superfences
+    - attr_list
+    - pymdownx.snippets
